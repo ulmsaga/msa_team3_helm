@@ -9,7 +9,8 @@ appLabel: team3-lsc-accounts-app
 replicaCount: 1
 
 image:
-  repository: group1-team3-lsc-accounts
+  # repository: group1-team3-lsc-accounts
+  repository: group1-team6-cha-acc
 
 service:
   nodePort: 30316
@@ -17,7 +18,7 @@ service:
 
 eazybankcommon:
   service:
-    targetPort: 9206
-  containerPort: 9206
+    targetPort: 8098    # 9206
+  containerPort: 8098   # 9206
   image:
-    tag: v0.0.2
+    tag: latest         # v0.0.2
