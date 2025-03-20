@@ -49,7 +49,7 @@ pipeline {
                         --namespace ${NAMESPACE} \
                         -f ./${GLOBAL_HELM_CHART_PATH}/values.yaml \
                         -f ./${COMMON_HELM_CHART_PATH}/values.yaml \
-                        --set accounts.enabled=false \
+                        --set accounts.enabled=true \
                         --set cards.enabled=false \
                         --set loans.enabled=false \
                         --reset-values \
