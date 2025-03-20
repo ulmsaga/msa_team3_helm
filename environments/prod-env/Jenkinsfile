@@ -50,8 +50,8 @@ pipeline {
                         -f ./${GLOBAL_HELM_CHART_PATH}/values.yaml \
                         -f ./${COMMON_HELM_CHART_PATH}/values.yaml \
                         --set accounts.enabled=true \
-                        --set cards.enabled=false \
-                        --set loans.enabled=false \
+                        --set cards.enabled=true \
+                        --set loans.enabled=true \
                         --reset-values \
                         --wait --timeout 10m0s" 
 
