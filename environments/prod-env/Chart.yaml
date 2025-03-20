@@ -34,13 +34,13 @@ dependencies:
     repository: file://../../eazybank-services/accounts/helm-chart
     condition: accounts.enabled
 
-  - name: cards
-    version: 0.1.0
-    repository: file://../../eazybank-services/cards/helm-chart
-    condition: cards.enabled
+  # - name: cards
+  #   version: 0.1.0
+  #   repository: file://../../eazybank-services/cards/helm-chart
+  #   condition: cards.enabled
 
-  - name: loans
-    version: 0.1.0
-    repository: file://../../eazybank-services/loans/helm-chart
-    condition: loans.enabled
+  # - name: loans
+  #   version: 0.1.0
+  #   repository: file://../../eazybank-services/loans/helm-chart
+  #   condition: loans.enabled
       
