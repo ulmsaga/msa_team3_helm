@@ -12,7 +12,7 @@ image:
   repository: group1-team6-cha-acc
 
 service:
-  nodePort: 30316
+  nodePort: 30386
 
 
 eazybankcommon:
